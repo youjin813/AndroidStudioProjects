@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="50dp"
+    android:textAlignment="center"
+    android:textColor="#000000"
+    android:text="calculator"
+    />
+<EditText
+    android:id="@+id/first_num"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="숫자 1"
+    android:layout_marginTop="60dp"/>
+<EditText
+    android:id="@+id/second_num"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="숫자 2"/>
+<Button
+    android:id="@+id/plus_btn"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="더하기"
+    android:layout_marginTop="35dp"/>
+<Button
+    android:id="@+id/minus_btn"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="빼기"/>
+<Button
+    android:id="@+id/multip_btn"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="곱하기"/>
+<Button
+    android:id="@+id/division_btn"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="나누기"/>
+<TextView
+    android:id="@+id/result"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="30dp"
+    android:textColor="#d92424"
+    android:layout_marginTop="50dp"
+    android:text="계산 결과 :"/>
+</LinearLayout>
